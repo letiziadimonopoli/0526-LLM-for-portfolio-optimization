@@ -11,8 +11,7 @@ We design a structured experiment with four prompt levels, ranging from no guida
 Using the constituents of the Dow Jones Industrial Average (DJIA) and historical return data (`01-01-2018` to `30-06-2024`), we analyze the following elements:
 
 - feasibility of LLM outputs (constraint satisfaction and formatting)
-- similarity to the benchmark portfolio (mean-variance)
-- performance metrics (expected return, variance, Sharpe ratio)
-- diversification (Herfindahl index)
+- similarity to the benchmark portfolios (equally-weighted, mean-variance, minimum variance)
+- performance metrics (expected return, variance, Sharpe ratio, Herfindahl index)
 - robustness across repeated API calls
 - semantic consistency of model-generated comments
